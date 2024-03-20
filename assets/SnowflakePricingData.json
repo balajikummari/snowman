@@ -1,0 +1,868 @@
+{
+  "ServerlessFeatures": [
+    {
+      "feature": "Clustered Tables",
+      "credits": {
+        "snowflakeManagedCompute": 2,
+        "cloudServices": 1
+      }
+    },
+    {
+      "feature": "Materialized Views Maintenance",
+      "credits": {
+        "snowflakeManagedCompute": 10,
+        "cloudServices": 5
+      }
+    },
+    {
+      "feature": "Materialized Views Maintenance Secondary Databases",
+      "credits": {
+        "snowflakeManagedCompute": 2,
+        "cloudServices": 1
+      }
+    },
+    {
+      "feature": "Database Replication",
+      "credits": {
+        "snowflakeManagedCompute": 2,
+        "cloudServices": 1
+      }
+    },
+    {
+      "feature": "Search Optimization Service",
+      "credits": {
+        "snowflakeManagedCompute": 10,
+        "cloudServices": 5
+      }
+    },
+    {
+      "feature": "Search Optimization Service Secondary Databases",
+      "credits": {
+        "snowflakeManagedCompute": 2,
+        "cloudServices": 1
+      }
+    },
+    {
+      "feature": "Serverless Tasks",
+      "credits": {
+        "snowflakeManagedCompute": 1.5,
+        "cloudServices": 1
+      }
+    }
+  ],
+  "ComputeSizes": {
+    "XS": 1,
+    "S": 2,
+    "M": 4,
+    "L": 8,
+    "XL": 16,
+    "2XL": 32,
+    "3XL": 64,
+    "4XL": 128,
+    "5XL": 256,
+    "6XL": 512
+  },
+  "Providers": [
+    {
+      "id": "AWS",
+      "logo": "public/Amazon_Web_Services_Logo.svg",
+      "name": "Amazon Web Services",
+      "Regions": {
+        "US East (Northern Virginia)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "US West (Oregon)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "EU Dublin": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2.6,
+            "Enterprise": 3.9,
+            "Business Critical": 5.2,
+            "VPS": 7.8
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "EU Frankfurt": {
+          "Storage": {
+            "On Demand Price": 45,
+            "Capacity Price": 24.5
+          },
+          "Compute": {
+            "Standard": 2.6,
+            "Enterprise": 3.9,
+            "Business Critical": 5.2,
+            "VPS": 7.8
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "AP Sydney": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.75,
+            "Enterprise": 4.05,
+            "Business Critical": 5.5,
+            "VPS": 8.25
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 140,
+                "Different Continent": 140,
+                "Oceania": 140
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 140,
+              "Different Region": {
+                "Same Continent": 140,
+                "Different Continent": 140,
+                "Oceania": 140
+              }
+            }
+          }
+        },
+        "AP Singapore": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.5,
+            "Enterprise": 3.7,
+            "Business Critical": 5,
+            "VPS": 7.5
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        },
+        "Canada Central": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.25,
+            "Enterprise": 3.5,
+            "Business Critical": 4.5,
+            "VPS": 6.75
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "US East 2 (Ohio)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "AP Northeast 1 (Tokyo)": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.85,
+            "Enterprise": 4.3,
+            "Business Critical": 5.7,
+            "VPS": 8.55
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 114,
+              "Different Region": {
+                "Same Continent": 114,
+                "Different Continent": 114,
+                "Oceania": 114
+              }
+            }
+          }
+        },
+        "AP Mumbai": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.2,
+            "Enterprise": 3.3,
+            "Business Critical": 4.4,
+            "VPS": 6.6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 86,
+                "Different Continent": 86,
+                "Oceania": 86
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 109.3,
+              "Different Region": {
+                "Same Continent": 109.3,
+                "Different Continent": 109.3,
+                "Oceania": 109.3
+              }
+            }
+          }
+        },
+        "Europe (London)": {
+          "Storage": {
+            "On Demand Price": 42,
+            "Capacity Price": 24
+          },
+          "Compute": {
+            "Standard": 2.7,
+            "Enterprise": 4,
+            "Business Critical": 5.4,
+            "VPS": 8.1
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        },
+        "Asia Pacific (Seoul)": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.75,
+            "Enterprise": 4.05,
+            "Business Critical": 5.5,
+            "VPS": 8.25
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 80,
+                "Different Continent": 80,
+                "Oceania": 80
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 126,
+              "Different Region": {
+                "Same Continent": 126,
+                "Different Continent": 126,
+                "Oceania": 126
+              }
+            }
+          }
+        },
+        "Europe (Stockholm)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2.6,
+            "Enterprise": 3.9,
+            "Business Critical": 5.2,
+            "VPS": 7.8
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 20,
+                "Oceania": 20
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 90,
+              "Different Region": {
+                "Same Continent": 90,
+                "Different Continent": 90,
+                "Oceania": 90
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Azure",
+      "logo": "public/Microsoft_Azure.svg",
+      "name": "Microsoft Azure",
+      "Regions": {
+        "East US 2 (Virginia)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "West US 2 (Washington)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "West Europe (Netherlands)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2.6,
+            "Enterprise": 3.9,
+            "Business Critical": 5.2,
+            "VPS": 7.8
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "Australia East (New South Wales)": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.75,
+            "Enterprise": 4.05,
+            "Business Critical": 5.5,
+            "VPS": 8.25
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 80,
+                "Different Continent": 80,
+                "Oceania": 80
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        },
+        "Canada Central (Toronto)": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.25,
+            "Enterprise": 3.5,
+            "Business Critical": 4.5,
+            "VPS": 6.75
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "Southeast Asia (Singapore)": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.5,
+            "Enterprise": 3.7,
+            "Business Critical": 5,
+            "VPS": 7.5
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 80,
+                "Different Continent": 80,
+                "Oceania": 80
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        },
+        "Switzerland North": {
+          "Storage": {
+            "On Demand Price": 50.5,
+            "Capacity Price": 28.8
+          },
+          "Compute": {
+            "Standard": 3.1,
+            "Enterprise": 4.65,
+            "Business Critical": 6.2,
+            "VPS": 9.3
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "US Central (Iowa)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "North Europe (Ireland)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2.6,
+            "Enterprise": 3.9,
+            "Business Critical": 5.2,
+            "VPS": 7.8
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 50,
+                "Oceania": 50
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 87.5,
+              "Different Region": {
+                "Same Continent": 87.5,
+                "Different Continent": 87.5,
+                "Oceania": 87.5
+              }
+            }
+          }
+        },
+        "Japan East (Tokyo)": {
+          "Storage": {
+            "On Demand Price": 46,
+            "Capacity Price": 25
+          },
+          "Compute": {
+            "Standard": 2.85,
+            "Enterprise": 4.3,
+            "Business Critical": 5.7,
+            "VPS": 8.55
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 80,
+                "Different Continent": 80,
+                "Oceania": 80
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "GCP",
+      "logo": "public/Google-cloud-platform.svg",
+      "name": "Google Cloud Platform",
+      "Regions": {
+        "US Central 1 (Iowa)": {
+          "Storage": {
+            "On Demand Price": 35,
+            "Capacity Price": 20
+          },
+          "Compute": {
+            "Standard": 2,
+            "Enterprise": 3,
+            "Business Critical": 4,
+            "VPS": 6
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 10,
+                "Different Continent": 80,
+                "Oceania": 150
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        },
+        "Europe West 4 (Netherlands)": {
+          "Storage": {
+            "On Demand Price": 35,
+            "Capacity Price": 20
+          },
+          "Compute": {
+            "Standard": 2.6,
+            "Enterprise": 3.9,
+            "Business Critical": 5.2,
+            "VPS": 7.8
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 80,
+                "Oceania": 150
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        },
+        "Europe West 2 (London)": {
+          "Storage": {
+            "On Demand Price": 40,
+            "Capacity Price": 23
+          },
+          "Compute": {
+            "Standard": 2.7,
+            "Enterprise": 4,
+            "Business Critical": 5.4,
+            "VPS": 8.1
+          },
+          "Transfer": {
+            "Same Cloud Provider": {
+              "Same Region": 0,
+              "Different Region": {
+                "Same Continent": 20,
+                "Different Continent": 80,
+                "Oceania": 150
+              }
+            },
+            "Different Cloud Provider": {
+              "Same Region": 120,
+              "Different Region": {
+                "Same Continent": 120,
+                "Different Continent": 120,
+                "Oceania": 120
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

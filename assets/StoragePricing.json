@@ -1,0 +1,176 @@
+[
+  {
+    "Cloud Provider": "AWS",
+    "Region": "US East (Northern Virginia)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "US West (Oregon)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "EU Dublin",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "EU Frankfurt",
+    "On Demand Storage Pricing (TB/mo)": 45.0,
+    "Capacity Storage Pricing (TB/mo)": 24.5
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "AP Sydney",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "AP Singapore",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "Canada Central",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "US East 2 (Ohio)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "AP Northeast 1 (Tokyo)",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "AP Mumbai",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "US East 1 Commercial Gov",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "Europe (London)",
+    "On Demand Storage Pricing (TB/mo)": 42.0,
+    "Capacity Storage Pricing (TB/mo)": 24.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "Asia Pacific (Seoul)",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "US Gov West 1",
+    "On Demand Storage Pricing (TB/mo)": 68.0,
+    "Capacity Storage Pricing (TB/mo)": 39.0
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Region": "Europe (Stockholm)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "East US 2 (Virginia)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "West US 2 (Washington)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "West Europe (Netherlands)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "Australia East (New South Wales)",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "Canada Central (Toronto)",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "Southeast Asia (Singapore)",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "Switzerland North",
+    "On Demand Storage Pricing (TB/mo)": 50.5,
+    "Capacity Storage Pricing (TB/mo)": 28.8
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "US Gov Virginia",
+    "On Demand Storage Pricing (TB/mo)": 68.0,
+    "Capacity Storage Pricing (TB/mo)": 39.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "US Central (Iowa)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "North Europe (Ireland)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Region": "Japan East (Tokyo)",
+    "On Demand Storage Pricing (TB/mo)": 46.0,
+    "Capacity Storage Pricing (TB/mo)": 25.0
+  },
+  {
+    "Cloud Provider": "GCP",
+    "Region": "US Central 1 (Iowa)",
+    "On Demand Storage Pricing (TB/mo)": 35.0,
+    "Capacity Storage Pricing (TB/mo)": 20.0
+  },
+  {
+    "Cloud Provider": "GCP",
+    "Region": "Europe West 4 (Netherlands)",
+    "On Demand Storage Pricing (TB/mo)": 35.0,
+    "Capacity Storage Pricing (TB/mo)": 20.0
+  },
+  {
+    "Cloud Provider": "GCP",
+    "Region": "Europe West 2 (London)",
+    "On Demand Storage Pricing (TB/mo)": 40.0,
+    "Capacity Storage Pricing (TB/mo)": 23.0
+  }
+]

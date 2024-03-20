@@ -1,0 +1,263 @@
+[
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "US East (Northern Virginia)",
+    "Combine": "AWSUS East (Northern Virginia)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "US West (Oregon)",
+    "Combine": "AWSUS West (Oregon)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "EU Dublin",
+    "Combine": "AWSEU Dublin",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "EU Frankfurt",
+    "Combine": "AWSEU Frankfurt",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "AP Sydney",
+    "Combine": "AWSAP Sydney",
+    "Same Region": 0,
+    "Same Continent": 140,
+    "Different Continent": 140,
+    "Oceania": 140
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "AP Singapore",
+    "Combine": "AWSAP Singapore",
+    "Same Region": 0,
+    "Same Continent": 90,
+    "Different Continent": 90,
+    "Oceania": 90
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "Canada Central",
+    "Combine": "AWSCanada Central",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "US East 2 (Ohio)",
+    "Combine": "AWSUS East 2 (Ohio)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "AP Northeast 1 (Tokyo)",
+    "Combine": "AWSAP Northeast 1 (Tokyo)",
+    "Same Region": 0,
+    "Same Continent": 90,
+    "Different Continent": 90,
+    "Oceania": 90
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "AP Mumbai",
+    "Combine": "AWSAP Mumbai",
+    "Same Region": 0,
+    "Same Continent": 86,
+    "Different Continent": 86,
+    "Oceania": 86
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "US East 1 Commercial Gov",
+    "Combine": "AWSUS East 1 Commercial Gov",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "Europe (London)",
+    "Combine": "AWSEurope (London)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "Asia Pacific (Seoul)",
+    "Combine": "AWSAsia Pacific (Seoul)",
+    "Same Region": 0,
+    "Same Continent": 80,
+    "Different Continent": 80,
+    "Oceania": 80
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "US Gov West 1",
+    "Combine": "AWSUS Gov West 1",
+    "Same Region": 0,
+    "Same Continent": 30,
+    "Different Continent": 30,
+    "Oceania": 30
+  },
+  {
+    "Cloud Provider": "AWS",
+    "Data Transfer Source Region": "Europe (Stockholm)",
+    "Combine": "AWSEurope (Stockholm)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 20,
+    "Oceania": 20
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "East US 2 (Virginia)",
+    "Combine": "AzureEast US 2 (Virginia)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "West US 2 (Washington)",
+    "Combine": "AzureWest US 2 (Washington)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "West Europe (Netherlands)",
+    "Combine": "AzureWest Europe (Netherlands)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "Australia East (New South Wales)",
+    "Combine": "AzureAustralia East (New South Wales)",
+    "Same Region": 0,
+    "Same Continent": 80,
+    "Different Continent": 80,
+    "Oceania": 80
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "Canada Central (Toronto)",
+    "Combine": "AzureCanada Central (Toronto)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "Southeast Asia (Singapore)",
+    "Combine": "AzureSoutheast Asia (Singapore)",
+    "Same Region": 0,
+    "Same Continent": 80,
+    "Different Continent": 80,
+    "Oceania": 80
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "Switzerland North",
+    "Combine": "AzureSwitzerland North",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "US Gov Virginia",
+    "Combine": "AzureUS Gov Virginia",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "US Central (Iowa)",
+    "Combine": "AzureUS Central (Iowa)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "North Europe (Ireland)",
+    "Combine": "AzureNorth Europe (Ireland)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 50,
+    "Oceania": 50
+  },
+  {
+    "Cloud Provider": "Azure",
+    "Data Transfer Source Region": "Japan East (Tokyo)",
+    "Combine": "AzureJapan East (Tokyo)",
+    "Same Region": 0,
+    "Same Continent": 80,
+    "Different Continent": 80,
+    "Oceania": 80
+  },
+  {
+    "Cloud Provider": "GCP",
+    "Data Transfer Source Region": "US Central 1 (Iowa)",
+    "Combine": "GCPUS Central 1 (Iowa)",
+    "Same Region": 0,
+    "Same Continent": 10,
+    "Different Continent": 80,
+    "Oceania": 150
+  },
+  {
+    "Cloud Provider": "GCP",
+    "Data Transfer Source Region": "Europe West 4 (Netherlands)",
+    "Combine": "GCPEurope West 4 (Netherlands)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 80,
+    "Oceania": 150
+  },
+  {
+    "Cloud Provider": "GCP",
+    "Data Transfer Source Region": "Europe West 2 (London)",
+    "Combine": "GCPEurope West 2 (London)",
+    "Same Region": 0,
+    "Same Continent": 20,
+    "Different Continent": 80,
+    "Oceania": 150
+  }
+]

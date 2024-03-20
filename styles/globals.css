@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.collapse-card {
+  position: relative;
+  display: grid;
+  overflow: visible;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.collapse-card-title,
+.collapse-card > input[type='checkbox'],
+.collapse-card-content {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.collapse-card > input[type='checkbox'] {
+  appearance: none;
+  opacity: 0;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  max-height: 9000px;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  max-height: 9000px;
+}
+.collapse-card:not(.collapse-card-open):not(.collapse-card-close)
+  input[type='checkbox'],
+.collapse-card:not(.collapse-card-open):not(.collapse-card-close)
+  .collapse-card-title {
+  cursor: pointer;
+}
+.collapse-card:not(.collapse-card-open):not(.collapse-card-close)
+  input[type='checkbox'],
+.collapse-card:not(.collapse-card-open):not(.collapse-card-close)
+  .collapse-card-title {
+  cursor: pointer;
+}
+.collapse-card:focus:not(.collapse-card-open):not(.collapse-card-close)
+  .collapse-card-title {
+  cursor: unset;
+}
+.collapse-card-title,
+.collapse-card > input[type='checkbox'] {
+  width: 100%;
+  padding: 1rem /* 16px */;
+  padding-right: 3rem /* 48px */;
+  min-height: 3.75rem /* 60px */;
+  transition: background-color 0.2s ease-in-out;
+}
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:focus
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+}
+.collapse-card-open .collapse-card-title,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-title,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.collapse-card-open .collapse-card-title,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-title,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  --tw-bg-opacity: 1;
+  padding-bottom: 1rem /* 16px */;
+  opacity: 1;
+  transition: padding 0.2s ease-in-out;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  padding-bottom: 1rem /* 16px */;
+  opacity: 1;
+  transition: padding 0.2s ease-in-out;
+}
+
+.collapse-card-title,
+.collapse-card > input[type='checkbox'],
+.collapse-card-content {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.collapse-card-arrow .collapse-card-title:after {
+  position: absolute;
+  display: block;
+  height: 0.5rem /* 8px */;
+  width: 0.5rem /* 8px */;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  top: 1.4rem /* 22.4px */;
+  right: 1.4rem /* 22.4px */;
+  content: '';
+  transform-origin: 75% 75%;
+  transform: rotate(45deg);
+  box-shadow: 2px 2px;
+  pointer-events: none;
+}
+.collapse-card-plus .collapse-card-title:after {
+  position: absolute;
+  display: block;
+  height: 0.5rem /* 8px */;
+  width: 0.5rem /* 8px */;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  top: 0.9rem /* 14.4px */;
+  right: 1.4rem /* 22.4px */;
+  content: '+';
+  pointer-events: none;
+}
+.collapse-card:not(.collapse-card-open):not(.collapse-card-close)
+  input[type='checkbox'],
+.collapse-card:not(.collapse-card-open):not(.collapse-card-close)
+  .collapse-card-title {
+  cursor: pointer;
+}
+.collapse-card:focus:not(.collapse-card-open):not(.collapse-card-close)
+  .collapse-card-title {
+  cursor: unset;
+}
+.collapse-card-title,
+.collapse-card > input[type='checkbox'] {
+  width: 100%;
+  padding: 1rem /* 16px */;
+  padding-right: 3rem /* 48px */;
+  min-height: 3.75rem /* 60px */;
+  transition: background-color 0.2s ease-in-out;
+}
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:focus
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+}
+.collapse-card-open .collapse-card-title,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-title,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.collapse-card-open .collapse-card-title,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-title,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.collapse-card-open .collapse-card-title,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-title,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title {
+  --tw-bg-opacity: 1;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.collapse-card-open.collapse-card-arrow .collapse-card-title:after,
+.collapse-card-arrow:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-arrow:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  transform: rotate(225deg);
+}
+.collapse-card-open.collapse-card-arrow .collapse-card-title:after,
+.collapse-card-arrow:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-arrow:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  transform: rotate(225deg);
+}
+.collapse-card-open.collapse-card-arrow .collapse-card-title:after,
+.collapse-card-arrow:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-arrow:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  transform: rotate(225deg);
+}
+.collapse-card-open.collapse-card-plus .collapse-card-title:after,
+.collapse-card-plus:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-plus:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  content: '−';
+}
+.collapse-card-open.collapse-card-plus .collapse-card-title:after,
+.collapse-card-plus:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-plus:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  content: '−';
+}
+.collapse-card-open.collapse-card-plus .collapse-card-title:after,
+.collapse-card-plus:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-plus:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  content: '−';
+}
+
+.collapse-card-title,
+.collapse-card > input[type='checkbox'],
+.collapse-card-content {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.collapse-card-content {
+  grid-row-start: 2;
+  overflow: visible;
+  max-height: 0px;
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem /* 16px */;
+  cursor: unset;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  max-height: 9000px;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  max-height: 9000px;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  max-height: 9000px;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  --tw-bg-opacity: 1;
+  padding-bottom: 1rem /* 16px */;
+  opacity: 1;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  --tw-bg-opacity: 1;
+  padding-bottom: 1rem /* 16px */;
+  opacity: 1;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.collapse-card-open .collapse-card-content,
+.collapse-card:focus:not(.collapse-card-close) .collapse-card-content,
+.collapse-card:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-content {
+  --tw-bg-opacity: 1;
+  padding-bottom: 1rem /* 16px */;
+  opacity: 1;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.collapse-card-card-arrow .collapse-card-title:after {
+  position: absolute;
+  display: block;
+  height: 0.5rem /* 8px */;
+  width: 0.5rem /* 8px */;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  top: 1.4rem /* 22.4px */;
+  right: 1.4rem /* 22.4px */;
+  content: '';
+  transform-origin: 75% 75%;
+  transform: rotate(45deg);
+  box-shadow: 2px 2px;
+  pointer-events: none;
+}
+.collapse-card-open.collapse-card-arrow .collapse-card-title:after,
+.collapse-card-arrow:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-arrow:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  transform: rotate(225deg);
+}
+.collapse-card-open.collapse-card-arrow .collapse-card-title:after,
+.collapse-card-arrow:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-arrow:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  transform: rotate(225deg);
+}
+.collapse-card-open.collapse-card-arrow .collapse-card-title:after,
+.collapse-card-arrow:focus:not(.collapse-card-close) .collapse-card-title:after,
+.collapse-card-arrow:not(.collapse-card-close)
+  input[type='checkbox']:checked
+  ~ .collapse-card-title:after {
+  transform: rotate(225deg);
+}
+
+

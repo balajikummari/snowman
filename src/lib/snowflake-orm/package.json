@@ -1,0 +1,60 @@
+{
+  "_from": "snowflake-orm",
+  "_id": "snowflake-orm@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-U6/e9cd994OOiym1KTvxD+rhdd+dPrIOfGU9PFQmWZl+7JKppGw4oub3DA0S2z3N5nMKNYqe5dCCuMQuunojFg==",
+  "_location": "/snowflake-orm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "snowflake-orm",
+    "name": "snowflake-orm",
+    "escapedName": "snowflake-orm",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/snowflake-orm/-/snowflake-orm-1.0.4.tgz",
+  "_shasum": "7ac86c32dcadb951dec7ac9b52993f2753b16c82",
+  "_spec": "snowflake-orm",
+  "_where": "C:\\Technovert\\Snowman",
+  "author": {
+    "name": "Swarup Saha"
+  },
+  "bugs": {
+    "url": "https://github.com/swarup4/snowflake-orm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "snowflake-sdk": "^1.6.0",
+    "uuid": "^8.3.2"
+  },
+  "deprecated": false,
+  "description": "snowflake-orm is a ORM for NodeJS & Snowflake DB",
+  "homepage": "https://github.com/swarup4/snowflake-orm#readme",
+  "keywords": [
+    "Node JS",
+    "Snowflake DB",
+    "orm",
+    "object relational mapper",
+    "sql",
+    "snowflake orm",
+    "model"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "snowflake-orm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarup4/snowflake-orm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}
